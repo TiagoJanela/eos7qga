@@ -2,7 +2,8 @@
 
 Converts a SMILES string into three alternative encodings of the same molecule, a standardised canonical SMILES, a SELFIES string in which every sequence is guaranteed to be a valid structure, and an InChIKey suitable as a database lookup handle. Datamol sanitises and standardises the input first, so inconsistently written molecules resolve to a common form and it is that standardised structure the three strings describe. Everything is rule-based and deterministic, with no model or training involved.
 
-This model was incorporated on 2023-01-25.Last packaged on 2026-03-26.
+This model was incorporated on 2023-01-25.
+Last packaged on 2026-03-26.
 
 ## Information
 ### Identifiers
@@ -53,7 +54,7 @@ Below are the **Output Columns** of the model:
 ### References
 - **Source Code**: [https://github.com/datamol-org/datamol](https://github.com/datamol-org/datamol)
 - **Publication**: [https://docs.datamol.io/stable/tutorials/Preprocessing.html](https://docs.datamol.io/stable/tutorials/Preprocessing.html)
-- **Publication Type:** `Peer reviewed`
+- **Publication Type:** `Other`
 - **Publication Year:** `2022`
 - **Ersilia Contributor:** [carcablop](https://github.com/carcablop)
 
